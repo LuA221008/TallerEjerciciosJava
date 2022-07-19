@@ -1,4 +1,4 @@
-package sofka;
+package sofka.ejercicio4;
 
 import org.jboss.logging.Logger;
 import java.util.Scanner;
@@ -16,9 +16,8 @@ public class Ejercicio4 {
 
         log.info("Ingrese el precio del producto a calcular:");
         valorProducto = entrada.nextDouble();
-        valorFinal = (valorProducto)*(iva);
+        valorFinal = (valorProducto)*(iva) + valorProducto;
         log.info("El valor final del producto es:\n"+"$"+valorFinal);
-
     }
 
 }

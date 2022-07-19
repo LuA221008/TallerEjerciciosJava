@@ -12,13 +12,11 @@ public class Ejercicio1 {
         if (num1 > num2) {
             log.info("El número mayor es:\n" + num1);
         } else if (num1 == num2) {
-            log.info("Los números " + "" + num1 +" "+ "y " + num2 + "  " + "son iguales");
+            log.info("Los números " + "" + num1 + " " + "y " + num2 + "  " + "son iguales");
 
-        }else {
-                log.info("El número mayor es: \n" + num2);
+        } else {
+            log.info("El número mayor es: \n" + num2);
         }
-
-
     }
 
 

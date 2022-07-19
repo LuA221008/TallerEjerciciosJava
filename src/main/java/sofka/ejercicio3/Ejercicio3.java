@@ -1,4 +1,4 @@
-package sofka;
+package sofka.ejercicio3;
 
 import java.util.Scanner;
 
